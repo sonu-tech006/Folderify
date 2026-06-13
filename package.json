@@ -1,0 +1,19 @@
+{
+  "name": "folderify",
+  "version": "1.0.0",
+  "description": "Custom Folder Icons for Windows",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "file-saver": "^2.0.5",
+    "jszip": "^3.10.1"
+  },
+  "devDependencies": {
+    "vite": "^5.2.11"
+  }
+}
