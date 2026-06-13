@@ -23,7 +23,13 @@ Folderify is a website that offers custom folder icons for Windows, allowing use
 
 ### Download Icons
 
-Visit the [Folderify Website](https://sonu-tech006.github.io/Folderify) to download custom folder icons for your PC.
+Visit the [Folderify Website](https://folderify.vercel.app) to download custom folder icons for your PC.
+
+You can also access Folderify via any of these public links:
+
+- https://folderify.vercel.app
+- https://folderify-git-main-sonu-tech006s-projects.vercel.app
+- https://folderify-n0e76s7ww-sonu-tech006s-projects.vercel.app
 
 ### How to Use
 
