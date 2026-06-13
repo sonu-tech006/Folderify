@@ -114,15 +114,17 @@ header{
 }
 #logo-text{
     display: inline-block;
-    font-family: 'Segoe UI Mono', 'Roboto Mono', 'Courier New', monospace;
-    font-size: 2.4rem;
+    font-family: 'Minecraft', 'Segoe UI Mono', 'Roboto Mono', monospace;
+    font-size: 2.6rem;
     font-weight: 900;
-    letter-spacing: 0.22em;
+    letter-spacing: 0.24em;
     text-transform: uppercase;
-    color: var(--light-text);
+    background: linear-gradient(90deg, #a16cff, #6df3ff, #f4e0ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     position: relative;
-    text-shadow: 0 0 12px rgba(121, 55, 232, 0.8), 0 0 28px rgba(255, 255, 255, 0.08);
-    transition: color .3s ease, transform .3s ease;
+    text-shadow: 0 0 10px rgba(121, 55, 232, 0.35), 0 0 22px rgba(109, 243, 255, 0.16);
+    transition: transform .3s ease, filter .3s ease;
     padding: 0 6px;
 }
 #logo-text::before,
@@ -130,7 +132,7 @@ header{
     content: "";
     position: absolute;
     inset: 0;
-    border: 1px solid rgba(121, 55, 232, 0.4);
+    border: 1px solid rgba(121, 55, 232, 0.25);
     pointer-events: none;
 }
 #logo-text::before {
@@ -142,8 +144,8 @@ header{
     opacity: 0.18;
 }
 #logo-text:hover {
-    color: #e8e4ff;
-    transform: translateY(-1px);
+    transform: translateY(-1px) scale(1.02);
+    filter: brightness(1.1);
 }
 .right-nav-button-container{
     display: flex;
