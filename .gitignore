@@ -1,0 +1,8 @@
+# dependencies
+node_modules/
+
+# optional npm cache directory
+.npm
+
+# output
+dist/
